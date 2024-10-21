@@ -8,6 +8,7 @@ namespace Strategy.Interfaces
 {
     internal interface ProgressionStrategy
     {
-
+        decimal setWeight(decimal weight);
+        decimal setReps(decimal reps);
     }
 }

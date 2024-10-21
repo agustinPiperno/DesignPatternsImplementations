@@ -10,5 +10,15 @@ namespace Strategy.Entities
     internal class LinearPeriodization : ProgressionStrategy
     {
         public LinearPeriodization() { }
+
+        public decimal setWeight(decimal weight)
+        {
+            return weight;
+        }
+
+        public decimal setReps(decimal reps)
+        {
+            return reps;
+        }
     }
 }

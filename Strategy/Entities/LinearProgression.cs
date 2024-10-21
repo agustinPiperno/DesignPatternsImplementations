@@ -10,5 +10,15 @@ namespace Strategy.Entities
     internal class LinearProgression : ProgressionStrategy
     {
         public LinearProgression() { }
+
+        public decimal setWeight(decimal weight)
+        {
+            return weight + 2.5m;
+        }
+
+        public decimal setReps(decimal reps)
+        {
+            return reps;
+        }
     }
 }
