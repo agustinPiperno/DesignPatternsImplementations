@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Strategy.Entities
+namespace Strategy.Entities.Exercises
 {
     internal class BenchPress : Exercise
     {
@@ -23,15 +23,15 @@ namespace Strategy.Entities
 
         public void performExercise()
         {
-            Console.WriteLine("Performed Bench Press: " + this.Sets + 'x' + this.Reps + ' ' + this.Weight + " kg");
-            this.addProgress();
+            Console.WriteLine("Performed Bench Press: " + Sets + 'x' + Reps + ' ' + Weight + " kg");
+            addProgress();
 
         }
 
         public void addProgress()
         {
-            this.Weight = this.progressionStrategy.setWeight(this.Weight);
-            this.Reps = this.progressionStrategy.setReps(this.Reps);
+            Weight = progressionStrategy.setWeight(Weight);
+            Reps = progressionStrategy.setReps(Reps);
         }
     }
 }

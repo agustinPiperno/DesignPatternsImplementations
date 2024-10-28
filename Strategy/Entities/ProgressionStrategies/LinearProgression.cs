@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Strategy.Entities
+namespace Strategy.Entities.ProgressionStrategies
 {
     internal class LinearProgression : ProgressionStrategy
     {

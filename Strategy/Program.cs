@@ -1,4 +1,6 @@
 ﻿using Strategy.Entities;
+using Strategy.Entities.Exercises;
+using Strategy.Entities.ProgressionStrategies;
 using Strategy.Interfaces;
 
 Workout workout = new Workout();
