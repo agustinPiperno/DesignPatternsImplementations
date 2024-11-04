@@ -1,5 +1,5 @@
-﻿using Strategy.Entities;
-using Strategy.Interfaces;
+﻿using StrategyPattern.Entities;
+using StrategyPattern.Interfaces;
 
 Workout workout = new Workout();
 LinearProgression linearProgression = new LinearProgression();

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Strategy.Interfaces
+namespace StrategyPattern.Interfaces
 {
     internal interface ProgressionStrategy
     {
-        decimal setWeight(decimal weight);
-        decimal setReps(decimal reps);
+        public decimal setWeight(decimal weight);
+        public decimal setReps(decimal reps);
     }
 }

@@ -1,4 +1,4 @@
-﻿using Strategy.Interfaces;
+﻿using StrategyPattern.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Strategy.Entities
+namespace StrategyPattern.Entities
 {
     internal class BenchPress : Exercise
     {

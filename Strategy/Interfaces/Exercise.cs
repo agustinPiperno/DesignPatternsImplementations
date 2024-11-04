@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Strategy.Interfaces
+namespace StrategyPattern.Interfaces
 {
     internal interface Exercise
     {
         public void performExercise();
+        public void addProgress();
     }
 }
