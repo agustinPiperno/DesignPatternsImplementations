@@ -16,7 +16,7 @@ namespace StrategyPattern.Entities
             return weight + 2.5m;
         }
 
-        public decimal setReps(decimal reps)
+        public uint setReps(uint reps)
         {
             return reps;
         }

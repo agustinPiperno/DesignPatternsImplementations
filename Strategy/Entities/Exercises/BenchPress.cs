@@ -12,8 +12,8 @@ namespace StrategyPattern.Entities
     internal class BenchPress : Exercise
     {
         public decimal Weight { get; set; }
-        public decimal Reps { get; set; }
-        public decimal Sets { get; set; }
+        public uint Reps { get; set; }
+        public uint Sets { get; set; }
         public ProgressionStrategy progressionStrategy { get; set; }
 
         public BenchPress(ProgressionStrategy progressionStrategy)

@@ -9,6 +9,6 @@ namespace StrategyPattern.Interfaces
     internal interface ProgressionStrategy
     {
         public decimal setWeight(decimal weight);
-        public decimal setReps(decimal reps);
+        public uint setReps(uint reps);
     }
 }
