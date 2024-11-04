@@ -9,7 +9,7 @@ namespace StrategyPattern.Entities
 {
     internal class DoubleProgression : ProgressionStrategy
     {
-        public DoubleProgression(){ }
+        public DoubleProgression() { }
 
         public decimal setWeight(decimal weight)
         {
