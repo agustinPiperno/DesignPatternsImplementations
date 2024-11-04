@@ -8,8 +8,8 @@ namespace ObserverPattern.Interfaces
 {
     internal interface Subject
     {
-        void registerObserver();
-        void removeObserver();
-        void notifyObserver();
+        void registerObserver(Observer observer);
+        void removeObserver(Observer observer);
+        void notifyObservers();
     }
 }

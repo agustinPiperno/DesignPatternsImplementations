@@ -8,6 +8,6 @@ namespace ObserverPattern.Interfaces
 {
     internal interface Observer
     {
-        void update();
+        void update(decimal weight, uint reps);
     }
 }

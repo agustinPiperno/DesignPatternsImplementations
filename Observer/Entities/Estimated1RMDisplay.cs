@@ -9,13 +9,24 @@ namespace ObserverPattern.Entities
 {
     internal class Estimated1RMDisplay : Display, Observer
     {
+        public decimal Weight { get; set; }
+        public uint Reps { get; set; }
+        private Subject exerciseData;
+
+        public Estimated1RMDisplay(Subject exerciseData)
+        {
+            this.exerciseData = exerciseData;
+            exerciseData.registerObserver(this);
+        }
+        public void update(decimal weight, uint reps)
+        {
+            this.Weight = weight;
+            this.Reps = reps;
+            this.display();
+        }
         public void display()
         {
-
-        }
-        public void update()
-        {
-
+            Console.WriteLine("Estimated 1RM Display: " + (this.Weight * (1 + (decimal)this.Reps / 30)).ToString("0.00") + " kg");
         }
     }
 }
