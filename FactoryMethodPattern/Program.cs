@@ -1,4 +1,4 @@
-﻿using AbstractFactoryPattern.Entities;
+﻿using FactoryMethodPattern.Entities;
 
 Workout upperBodyWorkout = new UpperBodyWorkout();
 Workout lowerBodyWorkout = new LowerBodyWorkout();

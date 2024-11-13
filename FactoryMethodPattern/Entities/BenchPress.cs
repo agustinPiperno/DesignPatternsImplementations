@@ -1,20 +1,21 @@
-﻿using System;
+﻿using FactoryMethodPattern.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactoryPattern.Entities
+namespace FactoryMethodPattern.Entities
 {
     internal class BenchPress : Exercise
     {
-        public BenchPress() 
+        public BenchPress()
         {
-            this.ExerciseType = "Bench Press";
+            ExerciseType = "Bench Press";
         }
         public override void PerformExercise()
         {
-            Console.WriteLine("Performed " + this.ExerciseType);
+            Console.WriteLine("Performed " + ExerciseType);
         }
 
     }
